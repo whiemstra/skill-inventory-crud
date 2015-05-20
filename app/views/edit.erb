@@ -1,0 +1,8 @@
+<h1> Edit Your Sweet Skill</h1>
+
+<form action="/skills/<%= @skill.id %>" method="POST">
+  <input type="hidden", value="PUT" name="_method">
+  <input type="text" name="skill[name]" value="<%= @skill.name %>">
+  <textarea type="text" name="skill[description]" value="<%= @skill.description %>"></textarea>
+  <input type="submit" value="Update Skill">
+</form>

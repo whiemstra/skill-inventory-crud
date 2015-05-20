@@ -1,0 +1,12 @@
+---
+skills:
+- id: 2
+  name: '123'
+  description: 1234567890-
+- id: 5
+  name: '1'
+  description: '1'
+- id: 7
+  name: '3'
+  description: '3'
+total: 7
